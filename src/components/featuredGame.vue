@@ -2,10 +2,10 @@
     <div class="container">
         <div class="featured-game bg-white d-flex mt-4">
             <div class="row">
-                <div class="col-9">
-                    <img :src="game.src" alt="Subway" class="w-100" @click="openDetails(game)">
+                <div class="col-12 col-md-9">
+                    <img :src="game.src" alt="Subway" class="w-100 h-100" @click="openDetails(game)">
                 </div>
-                <div class="col-3">            
+                <div class="col-12 col-md-3 p-4 ">            
                     <h3 class="title mt-3" @click="openDetails(game)">{{game.title}}</h3>
                     <h3 class="sub-title" @click="openDetails(game)">{{game.subtitle}}</h3>
                     <p class="mt-4" @click="openDetails(game)">{{game.desc}}</p>
